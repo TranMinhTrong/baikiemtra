@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.telephone{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+p{
+    padding-left: 30px;
+}
+.lienhe{
+    background-image: url(imges/Background.jpg);
+    font-weight: bold;
+    color: black;
+}
+.lienhe form .btn{
+    background: wheat;
+}
+.lienhe .logo{
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.lienhe .dangnhap:hover{
+    background: gray;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.lienhe .dangky:hover{
+    background: gray;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.menu{
+background: url(imges/Background.jpg) no-repeat;
+  
+}
+.menu .nav-link:hover{
+    background: black;
+    border-radius: 10px;
+}
+.nav-active{
+    background: black;
+}
+.menu .Logotao{
+    border-radius: 20px;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-item{
+      padding-top: 10px;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.menu ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu ul li a{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.menu a{
+    margin-left: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black; 
+    text-align: center;
+}
+.carousel-inner img.d-block{
+    height: 500px;
+    width: 200px;
+}
+
+
+hr.ngan{
+    width: 35% ;
+    background: rgb(240, 236, 236);
+    border: 2px solid rgb(240, 236, 236);
+}
+hr{
+    width: 100%;
+    background: rgb(240, 236, 236);
+    border: 2px solid rgb(240, 236, 236);
+}
+
+.spxemnhieu .mt-3{
+    border: 2px solid rgb(156, 141, 141);
+}
+.spxemnhieu .mt-3 h3{
+    width: 200px;
+    font-size: 20px;
+    font-weight: 100%;
+    border: 1px solid rgb(190, 44, 44);
+}
+.tintuc{
+    border: 2px solid rgb(240, 236, 236);
+}
+
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+}
+
+footer ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+}
+footer .thanhtoan img{
+   margin: 10px;
+}
+
+
+.sanphamhot .collapse ul li{
+    margin-left: 20px;
+    padding-left: 50px;
+}
+.sanphamhot nav{
+    background-color: darkcyan;
+}
+.footer .container{
+    background-image: url(imges/background.png);
+}

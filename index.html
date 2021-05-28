@@ -1,0 +1,2435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="stye.css">
+    <title>Bài Tập Thiết kế Web Theo bootstrap</title>
+</head>
+<body>
+    <div class="lienhe ">
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-md-4 col-sm-4 text-center ">
+                        <img src="css/icons/telephone.svg" alt="TelePhone" class="telephone" height="20px" width="20px">
+                        <strong>HOTILE</strong>: 0787779216- 0336626056
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center">
+                      
+                      <div class="dropdown">
+                        <img src="imges//icon_dangnhap.png" alt="DangNhap">
+                        <label type="button" class=" dropdown-toggle" data-toggle="dropdown">
+                          Đăng Nhập/Đăng Ký <br>
+                          Tài Khoản
+                        </label>
+                          <div class="dropdown-menu text-center mt-2">
+                            <div class="dropdown-content mt-2">
+                              <a class="dropdown-item bg-warning" href="#">
+                                Đăng Nhập
+                              </a>
+                              <a class="dropdown-item bg-danger" href="#">
+                                Tạo tài khoản</a>
+                              <a class="dropdown-item bg-primary" href="#">
+                                <img src="imges/facebook_icon_130940.png" alt="">
+                                 Đăng nhập bằng facebook</a>                      
+                            </div>
+                          </div>                                        
+                      </div>
+                    </div>                  
+
+                    <div class="col-md-4 col-sm-4 text-center ">
+                        <img src="css/icons/geo-alt.svg" alt="adress" class="adress" height="20px" width="20px">
+                        <strong>Địa chỉ: </strong> 148 Trần Phú Nha Trang Khánh Hòa
+                    </div>
+                        <hr>
+                    <div class="col-md-5 col-sm-5 ">
+                        <img src="imges/Iphone/logo.png" alt="Logo" class="logo" >
+                    </div>
+                   
+                    <div class="col-md-7 col-sm-7 ">
+                      <nav class="navbar navbar-expand-md navbar-dark d-flex" id="parent">
+                        <div class="navbar-toggler text-center w-100 border-0 p-0">
+                          
+                          <button class="navbar-toggler float-right " data-toggle="collapse" data-target="#collapsibleNavbar_3">
+                            <span class="navbar-toggler-icon bg-drak"></span>
+                        </button>
+                         </div>
+                        <div class="collapse navbar-collapse text-center" id="collapsibleNavbar_3"  data-parent="#parent">
+                        <div class="huongdan float-left m-4">
+                            <img src="css/icons/file-plus-fill.svg" alt="" width="40px" height="30px">
+                            <strong>Hướng dẫn</strong>
+                            <p>mua hàng trả góp</p>
+                        </div>
+                       <div class="vanchuyen float-left m-4">
+                        <img src="imges/vanchuyen.png" alt="" height="30px" width="40px">
+                        <strong>Vận chuyển</strong>
+                        <p>Vận chuyển toàn quốc</p>
+                       </div>
+                       <form class="search float-left d-flex m-4">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                       </form>
+                        </div>
+                      </nav>
+                    </div>
+             
+            </div>
+          
+        </div>
+    </div>
+    <div class="menu sticky-top mt-1 ">
+        <div class="container text-center">
+            <nav class="navbar navbar-expand-md navbar-dark d-flex" id="parent">
+                <div class="navbar-toggler text-center w-100 border-0 p-0">
+                  <a class="navbar-text text-decoration-none text-white" href="#"><img src="images/Logo_03.png" class="Logotao" alt=""></a>
+                  <button class="navbar-toggler float-left" data-toggle="collapse" data-target="#collapsibleNavbar_1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                 </div>
+                <div class="collapse navbar-collapse text-center" id="collapsibleNavbar_1"  data-parent="#parent">
+                	<ul class="navbar-nav ">    
+                        <li class="nav-item dropdown"> <!-- menu ghép -->
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                             Điện Thoại  <!-- Nhãn menu hiển thị trên menu chính  -->
+                            </a>
+                            <div class="dropdown-menu"> <!-- các menu con -->
+                                <a class="dropdown-item " href="#iphone"><span> Iphone</span> </a>
+                                <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                <a class="dropdown-item" href="#Samsung">SamSung</a>
+                                <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                <a class="dropdown-item" href="#">OPPO</a>
+                                <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                <a class="dropdown-item" href="#">VIVO</a>
+                                <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                <a class="dropdown-item" href="#">NoKiA</a>
+                                <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                <a class="dropdown-item" href="#">Xiaomi</a>
+                                <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                <a class="dropdown-item" href="#">HaWia</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link"  href="#">Aple Iphone</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Phụ Kiện</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Âm Thanh</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tablet</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Mac</a>
+                      </li>    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liên Hệ</a>
+                        </li>  
+                        <li class="nav-item giohang">
+                          <a a class="nav-link" href="#"> Giỏ Hàng <img src="css/icons/cart4.svg" alt="GioHang"> </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+  </nav>
+</div>
+
+<div class="content mt-1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 bg-light">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="imges/Slide/ViVoSlide.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Iphone 12 126GB</h5>
+                            <p>...</p>
+                          </div>
+                          
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imges/Slide/IphoneSL1.png"  alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Iphone 12 126GB</h5>
+                            <p>...</p>
+                          </div>
+                          
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imges/Slide/iphoneslide2.png"  alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-center">Iphone 12 126GB</h5>
+                            <p>...</p>
+                          </div>
+    
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+<div class="spxemnhieu ">
+    <div class="container mt-3 py-0 bg-light">
+        <h3 class="bg-danger">Sản Phẩm xem nhiều</h3>
+        <div class="row text-center">
+            <div class="col-4 col-md-2 ">
+                <a href="#"><img src="imges/Iphone/iphone12xanhla.png" class="Iphone" alt="" height="150px" width="150px"></a>
+                <p>Iphone 12 256GB</p>
+            </div>
+            <div class="col-4 col-md-2 ">
+                <a href="#"><img src="imges/Iphone/Iphone11do.png" class="Iphone" alt="" height="150px" width="150px"></a>
+            </div>
+            <div class="col-4 col-md-2 ">
+                <a href="#"><img src="imges/Iphone/Iphone11backim.png" class="Iphone" alt="" height="150px" width="150px"></a>
+            </div>
+            <div class="col-3 col-md-2">
+                <a href="#"><img src="imges/Iphone/iphone12xanhla.png" class="Iphone" alt="" height="150px" width="150px"></a>
+                <p>Iphone 12 256GB</p>
+            </div>
+            <div class="col-4 col-md-2 ">
+                <a href="#"><img src="imges/Iphone/Iphone11do.png" class="Iphone" alt="" height="150px" width="150px"></a>
+            </div>
+            <div class="col-4 col-md-2">
+              <a href="#"><img src="imges/Iphone/Iphone11backim.png" class="Iphone" alt="" height="150px" width="150px"></a>
+          </div>
+        </div>
+    </div>
+</div>
+  <div class="sanphamhot mt-3">
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark d-flex" id="parent">
+          <div class="navbar-toggler text-center w-100 border-0 p-0">
+            
+            <button class="navbar-toggler float-right" data-toggle="collapse" data-target="#collapsibleNavbar_2">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+         
+           </div>
+          <div class="collapse navbar-collapse text-center" id="collapsibleNavbar_2"  data-parent="#parent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#iphone">IPHONE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Samsung">SAMSUNG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Oppo">OPPO</a>
+              </li>
+   
+              <li class="nav-item">
+                <a class="nav-link" href="#NokiA">NOKIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Vivo">VIVO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Xiaomi">XIAOMI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Huawei"> HUAWEI</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+          
+          <div id="Iphone" class="container-fluid bg-light text-center" style="padding-top:40px;padding-bottom:70px">
+            <h2>Iphone</h2>
+            <div class="row ">
+                <div class=" col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px" >
+                        <img class="card-img-top" src="imges/Iphone/Iphone1.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class=" col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Iphone/Iphone2.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Iphone/Iphone3.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary  mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Iphone/Iphone4.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary  mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Iphone/Iphone5.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary  mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+    
+          </div>
+          <div id="Samsung" class="container-fluid bg-light text-center" style="padding-top:70px;padding-bottom:70px">
+            <div class="row">
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Samsung/samsung1.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary  mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Samsung/Samsung2.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Samsung/samsung3.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary  mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Samsung/samsung4.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Samsung/samsung5.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary  mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+          <div id="Oppo" class="container-fluid bg-light text-center" style="padding-top:70px;padding-bottom:70px">
+            <div class="row">
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Oppo/Oppo1.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Oppo/Oppo2.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Oppo/Oppo3.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Oppo/Oppo4.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary  mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Oppo/Oppo5.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+          <div id="NokiA" class="container-fluid bg-light text-center" style="padding-top:70px;padding-bottom:70px">
+            <div class="row">
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/NoKiA/NoKiA1.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/NoKiA/noKiA2.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/NoKiA/NoKia3.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/NoKiA/Iphone4.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/NoKiA/Iphone5.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+          </div>
+          </div>
+          <div id="Vivo" class="container-fluid bg-light text-center" style="padding-top:70px;padding-bottom:70px">
+            <div class="row">
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Vivo/Vivo1.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Vivo/Vivo2.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Vivo/Vivo3.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Vivo/Vivo4.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 col-md-2 m-3">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-top" src="imges/Vivo/vivo5.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                          <span class="card-text">14.940.00 (vnđ)</span>
+                          <a href="#" class="btn btn-primary mt-3">Mua Hàng</a>
+                          <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#myModal">
+                            Mô tả sản phẩm
+                          </button>
+                          
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Điện thoại iPhone 12 Mini 64GB Đỏ</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  <table class="table table-dark table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Thuộc Tính</th>
+                                        <th>Giá Trị</th>
+              
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Xuất sứ</td>
+                                        <td>Trung Quốc</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Màn hình</td>
+                                        <td>5.4"</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Công nghệ màn hình</td>
+                                        <td>OlED</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Mặt kính cảm ứng</td>
+                                        <td>Kính cường lực Ceramic Shield</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera sau</td>
+                                        <td>2 camera 12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Độ phân giải camera trước</td>
+                                        <td>12 MP</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hệ điều hành</td>
+                                        <td>iOS 14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>RAM</td>
+                                        <td>4GB</td>
+                                
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                          
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>  
+  <div class="footer mt-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-2 ">
+          <h3>Iphone</h3>
+                  <ul>
+                    <li><a href="#">Iphone 12</a></li>
+                    <li><a href="#">Iphone 11</a></li>
+                    <li><a href="#">Iphone X</a></li>
+                    <li><a href="#">Iphone 8</a></li>
+                    <li><a href="#">Iphone 7</a></li>
+                    <li><a href="#">Iphone 6</a></li>
+                  </ul>
+                
+        </div>
+        <div class="col-6 col-md-2">
+          <h3>OPPO</h3>
+                  <ul>
+                    <li><a href="#">OppoF1S</a></li>
+                    <li><a href="#">Oppo12Pro</a></li>
+                    <li><a href="#">Iphone X</a></li>
+                    <li><a href="#">Iphone 8</a></li>
+                    <li><a href="#">Iphone 7</a></li>
+                    <li><a href="#">Iphone 6</a></li>
+                  </ul>
+                
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h3>SAMSUNG</h3>
+                  <ul>
+                    <li><a href="#">Iphone 12</a></li>
+                    <li><a href="#">Iphone 11</a></li>
+                    <li><a href="#">Iphone X</a></li>
+                    <li><a href="#">Iphone 8</a></li>
+                    <li><a href="#">Iphone 7</a></li>
+                    <li><a href="#">Iphone 6</a></li>
+                  </ul>
+                
+        </div>
+      <div class="col-6 col-md-2">
+        <h3>Iphone</h3>
+                <ul>
+                  <li><a href="#">Iphone 12</a></li>
+                  <li><a href="#">Iphone 11</a></li>
+                  <li><a href="#">Iphone X</a></li>
+                  <li><a href="#">Iphone 8</a></li>
+                  <li><a href="#">Iphone 7</a></li>
+                  <li><a href="#">Iphone 6</a></li>
+                </ul>
+              
+      </div>
+      <div class="col-6 col-md-2">
+        <h3>NOKOA</h3>
+                <ul>
+                  <li><a href="#">Iphone 12</a></li>
+                  <li><a href="#">Iphone 11</a></li>
+                  <li><a href="#">Iphone X</a></li>
+                  <li><a href="#">Iphone 8</a></li>
+                  <li><a href="#">Iphone 7</a></li>
+                  <li><a href="#">Iphone 6</a></li>
+                </ul>
+              
+      </div>
+      <div class="col-6 col-md-2">
+        <h3>VIVO</h3>
+                <ul>
+                  <li><a href="#">Iphone 12</a></li>
+                  <li><a href="#">Iphone 11</a></li>
+                  <li><a href="#">Iphone X</a></li>
+                  <li><a href="#">Iphone 8</a></li>
+                  <li><a href="#">Iphone 7</a></li>
+                  <li><a href="#">Iphone 6</a></li>
+                </ul>
+              
+      </div>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <h3>Hỗ Trợ Khách Hàng</h3>
+            <p>Hotline chăm sóc khách hàng: <span> 0787779216</span></p>
+            <ul>
+              <li><a href="#">Các câu hỏi thường gặp</a></li>
+              <li><a href="#">Gửi yêu cầu hỗ trợ</a></li>
+              <li><a href="#">Phương Thức Thanh Toán</a></li>
+              <li><a href="#">Hướng dẫn trả góp</a></li>
+              <li><a href="#">Hướng dẫn đổi trả</a></li>
+              <li><a href="#">Chính sách hàng nhập khẩu</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-center">
+            <h3>Về Cửa Hàng</h3>
+            <ul class="mt-5">
+              <li><a href="#">Giới Thiệu Store</a></li>
+              <li><a href="#">Thông tin tuyển dụng</a></li>
+              <li><a href="#">Chính sách bảo mật thanh toán</a></li>
+              <li><a href="#">Điều Khoản sử dụng</a></li>
+              <li><a href="#">Bán hàng doanh nghiệp</a></li>
+              <li><a href="#">Chính sách khuyến mãi</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-center">
+            <h3>Phương Thức Thanh Toán </h3>
+            <div class="thanhtoan ">
+              <a href="#"><img  src="imges/images/Visa_03.jpg" alt="" height="70px" width="70px"></a>
+              <a href="#"><img src="imges/images/MoMo_07.jpg" alt="" height="70px" width="70px"></a><br>
+              <a href="#"><img src="imges/images/jcb_17.jpg" alt="" height="70px" width="70px"></a>
+              <a href="#"><img src="imges/images/airpay_09.jpg" alt="" height="70px" width="70px"></a> 
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/all.min.js"></script>
+	<script src="js/brands.min.js"></script>
+	<script src="js/solid.min.js"></script>
+	<script src="js/fontawesome.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+      interval: 2000})
+    </script>
+</body>
