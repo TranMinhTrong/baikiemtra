@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="css/all.min.css">-->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="stye.css">
+    <title>Bài Tập Thiết kế Web Theo bootstrap</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row" style="background: #f5f8fd;">
+                <div style="background: #2b2e35;" class="col-md-12 " >
+                    <div class="lienhe justify-end offset-md-7">
+                        <a href="#" class="nav-link">Hotlie: 078 777 9216</a>
+                        <a href="#" class="nav-link">Hệ Thống 27 cửa hàng</a>
+                        <a href="#" class="nav-link">Tuyển Dụng</a>
+                        <a href="#" class="nav-link">Xả Kho</a> 
+                    </div>
+                </div>
+                <div class="col-md-3 " >
+                    <img src="imagesphukien/images/logo_03.jpg" alt="" height="100px" width="230px">
+                </div>
+                <div class="col-md-3 topnav mt-4">
+                   
+                        <div class="search-container">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn" type="submit"><img src="imagesphukien/images/icon_search_08.png" alt=""></button>
+                              </form>
+                          </div>
+    
+                </div>
+                <div class="col-md-4 offset-md-2 mt-2">
+                    <img src="imagesphukien/images/chinhsachBH_05.png" alt="">
+                </div>
+
+                <div class="col-md-12 menu ">
+                    <div class="offset-md-1">
+                        <nav class="navbar navbar-expand-md navbar-dark d-flex sticky-top" id="parent">
+                            <div class="navbar-toggler text-right w-100 border-0 p-0" style="text-align: right;">
+                              <button class="navbar-toggler float-left" data-toggle="collapse" data-target="#collapsibleNavbar_1">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            
+                             </div>
+                            <div class="collapse navbar-collapse" style="text-align: right;" id="collapsibleNavbar_1"  data-parent="#parent">
+                             
+                                <ul class="navbar-nav ">    
+                                    <li class="nav-item dropdown"> <!-- menu ghép -->
+                                        <a id="hov" class="nav-link dropdown-toggle" href="index.html" >
+                                         Điện Thoại  <!-- Nhãn menu hiển thị trên menu chính  -->
+                                        </a>
+                                        <div class="dropdown-menu"> <!-- các menu con -->
+                                            <a  id="drop" class="dropdown-item " href="#iphone"><span> IPHONE</span> </a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#Samsung">SAMSUNG</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">OPPO</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">VIVO</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">NOKIA</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">XIAOMI</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">HAWAI</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a id="hov" class="nav-link"  href="#">Apple Iphone</a>
+                                    </li>  
+                                    <li class="nav-item dropdown"> <!-- menu ghép -->
+                                        <a id="hov" class="nav-link dropdown-toggle" href="phukien.html" >
+                                         Phụ Kiện  <!-- Nhãn menu hiển thị trên menu chính  -->
+                                        </a>
+                                        <div class="dropdown-menu"> <!-- các menu con -->
+                                            <a id="drop" class="dropdown-item " href="#iphone"><span>Apple AirTag</span> </a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#Samsung">Tai nghe AirPods</a>
+                                            <div  class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a class="dropdown-item" href="#">Pin sạc dự phòng</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Cáp Sạc</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Dán Màn Hình</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Ốp Lưng - bao da</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Phụ kiện Macbook</a>
+                                        </div>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a id="hov" class="nav-link" href="#">Âm Thanh</a>
+                                    </li>  
+                                    <li class="nav-item" >
+                                        <a id="hov" class="nav-link" href="#">Tablet</a>
+                                    </li>
+                                    <li class="nav-item dropdown"> <!-- menu ghép -->
+                                        <button class="button button1"> <a  class="nav-link dropdown-toggle" href="Macbook.html" >
+                                            MacBook  <!-- Nhãn menu hiển thị trên menu chính  -->
+                                           </a>
+                                        </button>
+                                      
+                                        <div class="dropdown-menu"> <!-- các menu con -->
+                                            <a id="drop" class="dropdown-item " href="#"><span>Macbook Pro 2020 [M1]</span> </a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Macbook Air 2020 [M1]</a>
+                                            <div  class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a  id="drop" class="dropdown-item" href="#">Cable - Cổng kết nổi Macbook</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Sạc Macbook</a>
+                                            
+                                        </div>
+                                    </li>    
+                                    <li class="nav-item">
+                                        <a id="hov" class="nav-link" href="#">Liên Hệ</a>
+                                    </li>  
+                                    <li class="nav-item giohang">
+                                      <a id="hov" class="nav-link" href="#"> Giỏ Hàng <img src="css/icons/cart4.svg" alt="GioHang"> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav><!--Kết thúc menu-->
+                    </div>
+             
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="container">
+        <h3 class="text-center">Tại Sao Nên Chọn Mua MAC tại Store</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#">
+                <p>
+                    <img src="imagesphukien/images/icon_mac_1_03.png" alt="">
+                    Hàng chính hãng Bảo hành 1 đổi 1
+                </p
+                ></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                <p>
+                    <img src="imagesphukien/images/icon_mac_2_05.jpg" alt="">
+                    Hàng hoá luôn nhiều.
+                    Cam kết chất lượng
+                </p
+                ></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                <p>
+                    <img src="imagesphukien/images/icon_mac_3_07.png" alt="">
+                    Miễn phí giao hàng.
+                    Giao nhanh trong 2 giờ
+                </p
+                ></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                <p>
+                    <img src="imagesphukien/images/icon_mac_3_10.png" alt="">
+                    Hàng chính hãng Bảo hành 1 đổi 1
+                </p
+                ></a>
+            </div>
+        </div>
+
+    </div>
+    <section class="menumac">
+        <div class="container-fluid text-center">
+           <div class="row">
+               <div class="col-md-12 menu" id="menu1" style="height: 60px;">                
+                   <a href="#">MacBook pro Air 2020 [M1]</a>
+                   <a href="#">MacBook pro Air 2021</a>
+                   <a href="#">MacBook 2021 [A1]</a>
+                   <a href="#">Balo & Túi LapTop</a>
+                   <a href="#">Phụ kiện MacBook</a>
+               </div>
+               <div class="container">
+                   <div class="row">
+                    <div class="col-6 col-md-3  mt-2" style="width: 90%;">
+                   
+                        <div class="sanpham1">
+                         <img src="imagesphukien/images/mac_sanpham1_03.jpg" alt="MacBook" style="width: 100%;">
+                         <h4>Macbook Air 13 M1 16GB/256GB (2020) Chính hãng </h4>
+                         <p>32.900.000 <del>33.000.000</del></p>
+                         <a href="#" class="btn btn-primary mt-1">Mua Hàng</a>
+                         <div class="baohanh" style="width: 95%;">
+                             bảo hành 1 đổi 1 trong 12 tháng
+                         </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 mt-2" style="width: 95%;">
+                     
+                     <div class="sanpham1">
+                         <img src="imagesphukien/images/mac_sanpham_2_03.jpg" alt="MacBook" style="width: 100%;">
+                         <h4>Macbook Air 13 M1 16GB/256GB (2020) Chính hãng </h4>
+                         <p>32.900.000 <del>33.000.000</del></p>
+                         <a href="#" class="btn btn-primary mt-1">Mua Hàng</a>
+                         <div class="baohanh" style="width: 95%;">
+                             bảo hành 1 đổi 1 trong 12 tháng
+                         </div>
+                        </div>
+                 </div>
+                 <div class="col-6 col-md-3  mt-2" style="width: 95%;">
+                     
+                     <div class="sanpham1">
+                         <img src="imagesphukien/images/mac_sanpham_3_06.jpg" alt="MacBook" style="width: 100%;">
+                         <h4>Macbook Air 13 M1 16GB/256GB (2020) Chính hãng </h4>
+                         <p>32.900.000 <del>33.000.000</del></p>
+                         <a href="#" class="btn btn-primary mt-1">Mua Hàng</a>
+                         <div class="baohanh" style="width: 95%;">
+                             bảo hành 1 đổi 1 trong 12 tháng
+                         </div>
+                        </div>
+                 </div>
+                 <div class="col-6 col-md-3 mt-2" style="width: 95%;">
+                     
+                     <div class="sanpham1">
+                         <img src="imagesphukien/images/mac_sanpham_4_08.jpg" alt="MacBook" style="width: 100%;">
+                         <h4>Macbook Air 13 M1 16GB/256GB (2020) Chính hãng </h4>
+                         <p>32.900.000 <del>33.000.000</del></p>
+                         <a href="#" class="btn btn-primary mt-1">Mua Hàng</a>
+                         <div class="baohanh" style="width: 95%;">
+                             bảo hành 1 đổi 1 trong 12 tháng
+                         </div>
+                        </div>
+                 </div>
+                 <div class="col-6 col-md-3 mt-2" style="width: 95%;">
+                     
+                     <div class="sanpham1">
+                         <img src="imagesphukien/images/mac_sanpham_5_03.jpg" alt="MacBook" style="width: 100%;">
+                         <h4>Macbook Air 13 M1 16GB/256GB (2020) Chính hãng </h4>
+                         <p>32.900.000 <del>33.000.000</del></p>
+                         <a href="#" class="btn btn-primary mt-1">Mua Hàng</a>
+                         <div class="baohanh" style="width: 95%;">
+                             bảo hành 1 đổi 1 trong 12 tháng
+                         </div>
+                        </div>
+                 </div>
+                 <div class="col-6 col-md-3 mt-2" style="width: 95%;">
+                     
+                     <div class="sanpham1">
+                         <img src="imagesphukien/images/mac_sanpham_6_14.jpg" alt="MacBook" style="width: 100%;">
+                         <h4>Macbook Air 13 M1 16GB/256GB (2020) Chính hãng </h4>
+                         <p>32.900.000 <del>33.000.000</del></p>
+                         <a href="#" class="btn btn-primary mt-1">Mua Hàng</a>
+                         <div class="baohanh" style="width: 95%;">
+                             bảo hành 1 đổi 1 trong 12 tháng
+                         </div>
+                        </div>
+                 </div>
+                 <div class="col-6 col-md-3 mt-2" style="width: 95%;">
+                     
+                     <div class="sanpham1">
+                         <img src="imagesphukien/images/mac_sanpham_7_22.jpg" alt="MacBook" style="width: 100%;">
+                         <h4>Macbook Air 13 M1 16GB/256GB (2020) Chính hãng </h4>
+                         <p>32.900.000 <del>33.000.000</del></p>
+                         <a href="#" class="btn btn-primary mt-1">Mua Hàng</a>
+                         <div class="baohanh" style="width: 95%;">
+                             bảo hành 1 đổi 1 trong 12 tháng
+                         </div>
+                        </div>
+                 </div>
+                 <div class="col-6 col-md-3 mt-2" style="width: 95%;">
+                     
+                     <div class="sanpham1">
+                         <img src="imagesphukien/images/mac_sanpham_8_19.jpg" alt="MacBook" style="width: 100%;">
+                         <h4>Macbook Air 13 M1 16GB/256GB (2020) Chính hãng </h4>
+                         <p>32.900.000 <del>33.000.000</del></p>
+                         <a href="#" class="btn btn-primary mt-1">Mua Hàng</a>
+                         <div class="baohanh" style="width: 95%;">
+                             bảo hành 1 đổi 1 trong 12 tháng
+                         </div>
+                        </div>
+                 </div>
+                 <div class="col-md-12 mt-3">
+                    <h4>Macbook luôn là dòng máy tính được đánh giá cao từ người dùng. Thiết kế sang trọng, tinh tế, hoàn hảo, kèm theo đó là trải nghiệm không một mẫu Laptop nào có thể mang lại tương tự. </h4>
+                    <a href="#"><img src="imagesphukien/images/mac_10_32.jpg" alt=""></a>
+                </div>
+                   </div>
+               </div>
+               
+              
+           </div> 
+        </div>
+    </section>
+    <section class="hethong mt-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="cuahangviet">
+                        <h3><img src="imagesphukien/images/icon_trangchu_44.jpg" alt=""> Hệ Thống 19 Cửa Hàng Di Động Việt</h3>
+                        <p>Nơi có tất cả các sản phẩm Di Động Việt đang kinh doanh, và là nơi Trade-in Thu cũ lên đời. 
+                            Đặc biệt: Máy qua sử dụng giá rẻ, Trả góp linh hoạt với nhiều phương thức
+                        </p>
+                        <p>1072 Hậu Giang, P.12, Quận 6, TP.HCM (Sắp khai trương)</p>
+                        <p>389 Phạm Văn Thuận, P. Tam Hiệp, TP. Biên Hòa, Đồng Nai</p>
+                        <p>609 Lê Hồng Phong, P. 10, Quận 10, TP.HCM</p>
+                        <p>77 Trần Quang Khải, P. Tân Định, Quận 1, TP.HCM</p>
+                        <p>97 Võ Văn Ngân, P. Linh Chiểu, TP. Thủ Đức, TP.HCM</p>
+                        <a href="#"><h5>Xem tất cả 19 cửa hàng</h5></a>
+                    </div>
+                 
+                </div>
+                <div class="col-md-6">
+                    <div class="cuahangviet">
+                        <h3><img src="imagesphukien/images/icon_trangchu_44.jpg" alt=""> Hệ Thống 19 Cửa Hàng Di Động Việt</h3>
+                        <p>Nơi có tất cả các sản phẩm Di Động Việt đang kinh doanh, và là nơi Trade-in Thu cũ lên đời. 
+                            Đặc biệt: Máy qua sử dụng giá rẻ, Trả góp linh hoạt với nhiều phương thức
+                        </p>
+                        <p>1072 Hậu Giang, P.12, Quận 6, TP.HCM (Sắp khai trương)</p>
+                        <p>389 Phạm Văn Thuận, P. Tam Hiệp, TP. Biên Hòa, Đồng Nai</p>
+                        <p>609 Lê Hồng Phong, P. 10, Quận 10, TP.HCM</p>
+                        <p>77 Trần Quang Khải, P. Tân Định, Quận 1, TP.HCM</p>
+                        <p>97 Võ Văn Ngân, P. Linh Chiểu, TP. Thủ Đức, TP.HCM</p>
+                        <a href="#"><h5>Xem tất cả 19 cửa hàng</h5></a>
+                    </div>
+                 
+                </div>
+                 
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-6 col-md-3 chinhsach">
+                    <h5>Chính Sách Mua Hàng</h5>
+                    <a href="#"><p>Mua hàng trả góp</p></a>
+                    <a href="#"><p>Chính sách bảo hành</p></a>
+                    <a href="#"><p>Chính sách đổi trả</p></a>
+                    <a href="#"><p>Chính sách bán hàng</p></a>
+                    <a href="#"><p>Chính sách bảo mật</p></a>
+                    <a href="#"><p>Chính sách sử dụng</p></a>
+                    <a href="#"><p>Hướng dẫn mua hàng từ xa</p></a>
+                    <a href="#"><p>Tin công nghệ 24h</p></a>
+                    <a href="#"><p>Trade-in thu cũ lên đời</p></a>
+
+                </div>
+                <div class=" col-6 col-md-4">
+                    <h5>Tư Vấn Hỗ Trợ</h5>
+                    <p>Gọi tư vấn máy - phụ kiện
+                    <span>1800.6018 (08:30 – 21:30)</span> </p>
+                    <p>Khiếu nại - Góp ý
+                    <span>1800.6306 (08:30 – 21:30)</span></p>
+                    <p>Bảo hành - Hỗ trợ kỹ thuật
+                    <span>1900.2057 (09:00 – 21:00)</span></p>
+                    <p>Gọi mua hàng từ xa
+                    <span>1800.6018 (09:00 – 21:00)</span></p>
+
+                </div>
+                <div class="col-12 col-md-5">
+                    <h5>Hỗ Trợ Thanh Tóan Trực Tuyến</h5>
+                    <div class="view">
+                        <img src="imagesphukien/images/icon_facbook_03.jpg" alt="" style="width: 100px; height: 30px;" >
+                        <img src="imagesphukien/images/icon_inta_03.jpg" alt="" style="width: 100px; height: 30px;">
+                        <img src="imagesphukien/images/icon_you_09.jpg" alt="" style="width: 100px; height: 30px;">
+                    </div>
+                   
+                    <div class="thanhtoan">
+                    <img src="imagesphukien/images/icon_thanhtoan_15.jpg" alt="">
+                    <p><a href="#"> <img src="imagesphukien/images/visa_25.jpg" alt="" style="width: 60px; height: 40px;"></a>
+                        <a href="#"> <img src="imagesphukien/images/ATM_28.jpg" alt="" style="width: 60px; height: 40px;"></a>
+                        <a href="#"> <img src="imagesphukien/images/card_33.jpg" alt="" style="width: 60px; height: 40px;"></a>
+                         <a href="#"> <img src="imagesphukien/images/JCB_35.jpg" alt="" style="width: 60px; height: 40px;"></a>
+                    </p>
+                    <div class="logo">
+                        <img src="imagesphukien/images/logo.png" alt="" style="border-radius: 40px;">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+	<!--<script src="js/popper.min.js"></script>-->
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/all.min.js"></script>
+	<script src="js/brands.min.js"></script>
+	<script src="js/solid.min.js"></script>
+	<script src="js/fontawesome.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+      interval: 2000})
+    </script>
+</body>

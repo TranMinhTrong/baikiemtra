@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="css/all.min.css">-->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="stye.css">
+    <title>Bài Tập Thiết kế Web Theo bootstrap</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row" style="background: #f5f8fd;">
+                <div style="background: #2b2e35;" class="col-md-12 " >
+                    <div class="lienhe justify-end offset-md-7">
+                        <a href="#" class="nav-link">Hotlie: 078 777 9216</a>
+                        <a href="#" class="nav-link">Hệ Thống 27 cửa hàng</a>
+                        <a href="#" class="nav-link">Tuyển Dụng</a>
+                        <a href="#" class="nav-link">Xả Kho</a> 
+                    </div>
+                </div>
+                <div class="col-md-3 " >
+                    <img src="imagesphukien/images/logo_03.jpg" alt="" height="100px" width="230px">
+                </div>
+                <div class="col-md-3 topnav mt-4">
+                   
+                        <div class="search-container">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn" type="submit"><img src="imagesphukien/images/icon_search_08.png" alt=""></button>
+                              </form>
+                          </div>
+    
+                </div>
+                <div class="col-md-4 offset-md-2 mt-2">
+                    <img src="imagesphukien/images/chinhsachBH_05.png" alt="">
+                </div>
+                <div class="col-md-2">
+
+                </div>              
+                <div class="col-md-12 menu " id="navbar">
+                    <div class="offset-md-1">
+                        <nav class="navbar navbar-expand-md navbar-dark d-flex sticky-top" id="parent">
+                            <div class="navbar-toggler text-right w-100 border-0 p-0" style="text-align: right;">
+                              <button class="navbar-toggler float-left" data-toggle="collapse" data-target="#collapsibleNavbar_1">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+        
+                            
+                             </div>
+                            <div class="collapse navbar-collapse" style="text-align: right;" id="collapsibleNavbar_1"  data-parent="#parent">
+                             
+                                <ul class="navbar-nav ">    
+                                    <li class="nav-item dropdown"> <!-- menu ghép -->
+                                        <a id="hov" class="nav-link dropdown-toggle" href="index.html" >
+                                         Điện Thoại  <!-- Nhãn menu hiển thị trên menu chính  -->
+                                        </a>
+                                        <div class="dropdown-menu"> <!-- các menu con -->
+                                            <a  id="drop" class="dropdown-item " href="#iphone"><span> IPHONE</span> </a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#Samsung">SAMSUNG</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">OPPO</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">VIVO</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">NOKIA</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">XIAOMI</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">HAWAI</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a id="hov" class="nav-link"  href="#">Apple Iphone</a>
+                                    </li>  
+                                    <li class="nav-item dropdown"> <!-- menu ghép -->
+                                        <button class="button button1"> <a  class="nav-link dropdown-toggle" href="Macbook.html" >
+                                            Phụ Kiện  <!-- Nhãn menu hiển thị trên menu chính  -->
+                                           </a>
+                                        <div class="dropdown-menu"> <!-- các menu con -->
+                                            <a id="drop" class="dropdown-item " href="#iphone"><span>Apple AirTag</span> </a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#Samsung">Tai nghe AirPods</a>
+                                            <div  class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a class="dropdown-item" href="#">Pin sạc dự phòng</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Cáp Sạc</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Dán Màn Hình</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Ốp Lưng - bao da</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Phụ kiện Macbook</a>
+                                        </div>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a id="hov" class="nav-link" href="#">Âm Thanh</a>
+                                    </li>  
+                                    <li class="nav-item" >
+                                        <a id="hov" class="nav-link" href="#">Tablet</a>
+                                    </li>
+                                    <li class="nav-item dropdown"> <!-- menu ghép -->
+                                        <a id="hov" class="nav-link dropdown-toggle" href="Macbook.html" >
+                                         MacBook  <!-- Nhãn menu hiển thị trên menu chính  -->
+                                        </a>
+                                        <div class="dropdown-menu"> <!-- các menu con -->
+                                            <a id="drop" class="dropdown-item " href="#"><span>Macbook Pro 2020 [M1]</span> </a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Macbook Air 2020 [M1]</a>
+                                            <div  class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a  id="drop" class="dropdown-item" href="#">Cable - Cổng kết nổi Macbook</a>
+                                            <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                                            <a id="drop" class="dropdown-item" href="#">Sạc Macbook</a>
+                                            
+                                        </div>
+                                    </li>    
+                                    <li class="nav-item">
+                                        <a id="hov" class="nav-link" href="#">Liên Hệ</a>
+                                    </li>  
+                                    <li class="nav-item giohang">
+                                      <a id="hov" class="nav-link" href="#"> Giỏ Hàng <img src="css/icons/cart4.svg" alt="GioHang"> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+            </div>
+                </div>
+                </div>
+    </section>
+
+    <section class="slide mt-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                      
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="imagesphukien/images/slide1_06.jpg" alt="Slide 1" style="width: 100%;" >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagesphukien/images/slide2_06.jpg" alt="Slide 2" style="width: 100%;">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagesphukien/images/slide1_06.jpg" alt="Slide 3" style="width: 100%;">
+                          </div>
+                        </div>
+                      
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="slide1">
+                        <a href="#"><img src="imagesphukien/images/quangcao1_09.jpg" alt="" style="height: 50%; width: 100%;"  ></a>
+                        
+                    </div>
+                    <div class="slide1 mt-1">
+                        <a href="#"><img src="imagesphukien/images/quangcao2_12.jpg" alt="" style="height: 50%; width: 100%;"></a>
+                        
+                    </div>
+                </div>
+   
+            </div>
+        </div>
+    </section>
+    <section class="sanpham mt-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 col-md-2 zoom">
+                        <a href="#" class="nav-link"><img src="imagesphukien/images/hinh1_16.jpg" alt="">
+                            <p>Nổi bậc</p>
+                        </a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh2_18.jpg" alt="">
+                            <p>Pin dự phòng</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh3_07.jpg" alt="">
+                            <p>Cáp Sạc Iphone</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh4_07.jpg" alt="">
+                            <p>Kính cường lực</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh5_07.jpg" alt="">
+                            <p>Ốp lưng</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh6_07.jpg" alt="">
+                            <p>Tai nghe</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh7_07.jpg" alt="">
+                            <p>Loa nghe nhạc mini</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh8_06.jpg" alt="">
+                            <p >Phụ kiện Samsung</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh9_08.jpg" alt="">
+                            <p>Phụ kiện Macbook</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh10_10.jpg" alt="">
+                                <p>Apple AirPods</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh11_12.jpg" alt="">
+                                <p>Tai nghe True Wireless</p></a>
+                        </div>
+                        <div class="col-4 col-md-2 zoom">
+                            <a href="#" class="nav-link"><img src="imagesphukien/images/hinh12_14.jpg" alt="">
+                            <p>Loa Sony</p></a>
+                        </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="dealhot">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <img src="imagesphukien/images/icon_hot_14.png" alt="" class="offset-6">
+                    <a href="#">
+                        <img src="imagesphukien/images/hot1_07.jpg" alt="" style="width: 90%;">
+                        <p>Tai nghe Bluetooth JBL Tune 115TWS</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="imagesphukien/images/icon_hot_14.png" alt="" class="offset-6">
+                    <a href="#">
+                        <img src="imagesphukien/images/hot2_09.jpg" alt="" style="width: 90%;" >
+                        <p>Tai nghe Gaming Mpow Air SE</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="imagesphukien/images/icon_hot_14.png" alt="" class="offset-6">
+                    <a href="#">
+                        <img src="imagesphukien/images/hot3_12.jpg" alt="" style="width: 90%;">
+                        <p>Pin sạc dự phòng Innostyle Powergo 10.000mAh</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="imagesphukien/images/icon_hot_14.png" alt="" class="offset-6">
+                    <a href="#">
+                        <img src="imagesphukien/images/hot4_14.jpg" alt="" style="width: 90%;">
+                        <p>Loa Bluetooth LG XBOOM GO PN1</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-6">
+                    <a href="#"><img src="imagesphukien/images/quangcao1_06.jpg" alt="" width="100%"></a>
+                </div>
+                <div class="col-6 col-md-6">
+                    <a href="#"><img src="imagesphukien/images/quangcao2_07.jpg" alt="" width="100%"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banchay">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-6 col-md-7 banchay-header">
+                <h3>Phụ kiện bán chạy</h3>
+              </div>
+              <div class="col-6 col-md-5 banchay-header">
+                  <div class="link offset-4" style=" width: 100%;" >
+                    <a href="#" ><span >Pin dự phòng</span></a>
+                    <a href="" ><span>Ốp lưng</span></a>
+                    <a href=""><span>Cáp xạc</span></a>
+                  </div>
+                 
+              </div>
+              <div class="col-md-12">
+                  <div class="sanphambanchay mt-2">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-6 col-md-3">
+                                  <a href=""><img src="imagesphukien/images/banchay1_18.jpg" alt=""></a>
+                                  <div class="noidung" >
+                                    <p>Cáp Innostyle Jazzy USB-A to Micro 1.2M</p>
+                                    <p>120.000đ <del>150.000đ</del></p>
+                                    <button class="btn btn-outline-primary bg-danger">May ngay</button>
+                                  </div>
+                              </div>
+                              <div class="col-6 col-md-3">
+                                 
+                                <a href="#"><img src="imagesphukien/images/banchay2_09.jpg" alt=""></a>
+                                <div class="noidung" >
+                                    <p>Dây cáp sạc Anker PowerLine II Lightning 0.9M</p>
+                                    <p>200.000đ <del>250.000đ</del></p>
+                                    <button class="btn btn-outline-primary bg-danger">May ngay</button>
+                                  </div>
+                                
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="#"><img src="imagesphukien/images/banchay3_11.jpg" alt=""></a>
+                                <div class="noidung">
+                                    <p>Củ sạc nhanh 20W Innostyle Minigo Pro III Dual</p>
+                                    <p>320.000đ <del>390.000đ</del></p>
+                                    <button class="btn btn-outline-primary bg-danger">May ngay</button>
+                                  </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href=""><img src="imagesphukien/images/banchay4_13.jpg" alt=""></a>
+                                
+                                <div class="noidung" >
+                                    <p>Củ sạc nhanh Apple iPhone 20W Type-C Chính hãng</p>
+                                    <p>250.000đ <del>350.000đ</del></p>
+                                    <button class="btn btn-outline-primary bg-danger">May ngay</button>
+                                  </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="#"><img src="imagesphukien/images/banchay5_20.jpg" alt=""></a>
+                                
+                                <div class="noidung" >
+                                    <p>Pin sạc dự phòng Energizer 10.000mAh UE10043</p>
+                                    <p>420.000đ <del>500.000đ</del></p>
+                                    <button class="btn btn-outline-primary bg-danger">May ngay</button>
+                                  </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="#"><img src="imagesphukien/images/banchay6_22.jpg" alt=""></a>
+                                
+                                <div class="noidung" >
+                                    <p>Pin sạc dự phòng Anker PowerCore Select 10mAh</p>
+                                    <p>320.000đ <del>350.000đ</del></p>
+                                    <button class="btn btn-outline-primary bg-danger">May ngay</button>
+                                  </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="#"> <img src="imagesphukien/images/banchay7_24.jpg" alt=""></a>
+                               
+                                <div class="noidung">
+                                    <p>Pin sạc dự phòng Anker PowerCore 10400mAh - A1214</p>
+                                    <p>420.000đ <del>550.000đ</del></p>
+                                    <button class="btn btn-outline-primary bg-danger">May ngay</button>
+                                  </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="#"> <img src="imagesphukien/images/banchay8_27.jpg" alt=""></a>
+                               
+                                <div class="noidung" >
+                                    <p>Pin sạc dự phòng MAZER Pocket Power Mini 10000mAh</p>
+                                    <p>400.000đ <del>450.000đ</del></p>
+                                    <button class="btn btn-outline-primary bg-danger">May ngay</button>
+                                  </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+            </div>
+            
+        </div>
+    </section>
+    <section class="hethong mt-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="cuahangviet">
+                        <h3><img src="imagesphukien/images/icon_trangchu_44.jpg" alt=""> Hệ Thống 19 Cửa Hàng Di Động Việt</h3>
+                        <p>Nơi có tất cả các sản phẩm Di Động Việt đang kinh doanh, và là nơi Trade-in Thu cũ lên đời. 
+                            Đặc biệt: Máy qua sử dụng giá rẻ, Trả góp linh hoạt với nhiều phương thức
+                        </p>
+                        <p>1072 Hậu Giang, P.12, Quận 6, TP.HCM (Sắp khai trương)</p>
+                        <p>389 Phạm Văn Thuận, P. Tam Hiệp, TP. Biên Hòa, Đồng Nai</p>
+                        <p>609 Lê Hồng Phong, P. 10, Quận 10, TP.HCM</p>
+                        <p>77 Trần Quang Khải, P. Tân Định, Quận 1, TP.HCM</p>
+                        <p>97 Võ Văn Ngân, P. Linh Chiểu, TP. Thủ Đức, TP.HCM</p>
+                        <a href="#"><h5>Xem tất cả 19 cửa hàng</h5></a>
+                    </div>
+                 
+                </div>
+                <div class="col-md-6">
+                    <div class="cuahangviet">
+                        <h3><img src="imagesphukien/images/icon_trangchu_44.jpg" alt=""> Hệ Thống 19 Cửa Hàng Di Động Việt</h3>
+                        <p>Nơi có tất cả các sản phẩm Di Động Việt đang kinh doanh, và là nơi Trade-in Thu cũ lên đời. 
+                            Đặc biệt: Máy qua sử dụng giá rẻ, Trả góp linh hoạt với nhiều phương thức
+                        </p>
+                        <p>1072 Hậu Giang, P.12, Quận 6, TP.HCM (Sắp khai trương)</p>
+                        <p>389 Phạm Văn Thuận, P. Tam Hiệp, TP. Biên Hòa, Đồng Nai</p>
+                        <p>609 Lê Hồng Phong, P. 10, Quận 10, TP.HCM</p>
+                        <p>77 Trần Quang Khải, P. Tân Định, Quận 1, TP.HCM</p>
+                        <p>97 Võ Văn Ngân, P. Linh Chiểu, TP. Thủ Đức, TP.HCM</p>
+                        <a href="#"><h5>Xem tất cả 19 cửa hàng</h5></a>
+                    </div>
+                 
+                </div>
+                 
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-6 col-md-3 chinhsach">
+                    <h5>Chính Sách Mua Hàng</h5>
+                    <a href="#"><p>Mua hàng trả góp</p></a>
+                    <a href="#"><p>Chính sách bảo hành</p></a>
+                    <a href="#"><p>Chính sách đổi trả</p></a>
+                    <a href="#"><p>Chính sách bán hàng</p></a>
+                    <a href="#"><p>Chính sách bảo mật</p></a>
+                    <a href="#"><p>Chính sách sử dụng</p></a>
+                    <a href="#"><p>Hướng dẫn mua hàng từ xa</p></a>
+                    <a href="#"><p>Tin công nghệ 24h</p></a>
+                    <a href="#"><p>Trade-in thu cũ lên đời</p></a>
+
+                </div>
+                <div class=" col-6 col-md-4">
+                    <h5>Tư Vấn Hỗ Trợ</h5>
+                    <p>Gọi tư vấn máy - phụ kiện
+                    <span>1800.6018 (08:30 – 21:30)</span> </p>
+                    <p>Khiếu nại - Góp ý
+                    <span>1800.6306 (08:30 – 21:30)</span></p>
+                    <p>Bảo hành - Hỗ trợ kỹ thuật
+                    <span>1900.2057 (09:00 – 21:00)</span></p>
+                    <p>Gọi mua hàng từ xa
+                    <span>1800.6018 (09:00 – 21:00)</span></p>
+
+                </div>
+                <div class="col-12 col-md-5">
+                    <h5>Hỗ Trợ Thanh Tóan Trực Tuyến</h5>
+                    <div class="view">
+                        <img src="imagesphukien/images/icon_facbook_03.jpg" alt="" style="width: 100px; height: 30px;" >
+                        <img src="imagesphukien/images/icon_inta_03.jpg" alt="" style="width: 100px; height: 30px;">
+                        <img src="imagesphukien/images/icon_you_09.jpg" alt="" style="width: 100px; height: 30px;">
+                    </div>
+                   
+                    <div class="thanhtoan">
+                    <img src="imagesphukien/images/icon_thanhtoan_15.jpg" alt="">
+                    <p><a href="#"> <img src="imagesphukien/images/visa_25.jpg" alt="" style="width: 60px; height: 40px;"></a>
+                        <a href="#"> <img src="imagesphukien/images/ATM_28.jpg" alt="" style="width: 60px; height: 40px;"></a>
+                        <a href="#"> <img src="imagesphukien/images/card_33.jpg" alt="" style="width: 60px; height: 40px;"></a>
+                         <a href="#"> <img src="imagesphukien/images/JCB_35.jpg" alt="" style="width: 60px; height: 40px;"></a>
+                    </p>
+                    <div class="logo">
+                        <img src="imagesphukien/images/logo.png" alt="" style="border-radius: 40px;">
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+	<!--<script src="js/popper.min.js"></script>-->
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/all.min.js"></script>
+	<script src="js/brands.min.js"></script>
+	<script src="js/solid.min.js"></script>
+	<script src="js/fontawesome.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+      interval: 2000})
+    </script>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+</body>
