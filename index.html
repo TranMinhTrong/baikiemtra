@@ -16,16 +16,43 @@
     <div class="container-fluid">
         <div class="row" style="background: #f5f8fd;">
             <div style="background: #2b2e35;" class="col-md-12 " >
-              <div class="col">
-                <a href="DangNhap.html" class="nav-link login" style="float: left;">Đăng nhập</a>
-                <a href="dangky.html" class="nav-link" style="float: left;">Đăng ký</a>
-              </div>
-                <div class="lienhe justify-end offset-md-7">
+              <nav class="navbar navbar-expand-md bg-dark navbar-dark d-flex" id="parent">
+                <div class="navbar-toggler text-center w-100 border-0 p-0">
+                
+                  <!-- Nút bấm 1 bên trái (float-left) đại diện cho menu 1 -->
+                  <button class="navbar-toggler float-left" data-toggle="collapse" data-target="#collapsibleNavbar_1">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <!-- Logo-->
+                  <a class="navbar-text text-decoration-none text-white" href="#"><img src="imagesphukien/images/Logotao.png" alt="" style="border-radius: 35px;"></a>
+                
+                  <!-- Nút bấm 2 bên phải (float-right) đại diện cho menu 2 -->
+                  <button class="navbar-toggler float-right" data-toggle="collapse" data-target="#collapsibleNavbar_2">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                
+                <!-- Menu 1 -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar_1"  data-parent="#parent">
+                  <div class="col">
+                    <a href="DangNhap.html" class="nav-link login" style="float: left;">Đăng nhập</a>
+                    <a href="dangky.html" class="nav-link" style="float: left;">Đăng ký</a>
+                  </div>
+                </div> <!-- kết thúc Menu 1 -->
+            
+                <!-- Menu 2 -->
+                <div class="collapse navbar-collapse justify-content-end text-right" id="collapsibleNavbar_2" data-parent="#parent">
+                  <div class="lienhe justify-end offset-md-4">
                     <a href="#" class="nav-link">Hotlie: 078 777 9216</a>
                     <a href="#" class="nav-link">Hệ Thống 27 cửa hàng</a>
                     <a href="#" class="nav-link">Tuyển Dụng</a>
                     <a href="#" class="nav-link">Xả Kho</a> 
                 </div>
+                </div> <!-- kết thúc-->
+              </nav>
+              
+ 
             </div>
             <div class="col-md-3 " >
                 <img src="imagesphukien/images/logo_03.jpg" alt="" height="100px" width="230px">
@@ -37,7 +64,7 @@
                             <button class="btn" type="submit"><img src="imagesphukien/images/icon_search_08.png" alt=""></button>
                           </form>
                       </div>
-    </div>
+          </div>
             <div class="col-md-4 offset-2 mt-2">
                 <img src="imagesphukien/images/chinhsachBH_05.png" alt="">
             </div>
@@ -47,13 +74,13 @@
                 <div class="offset-md-1">
                     <nav class="navbar navbar-expand-md navbar-dark d-flex " id="parent">
                         <div class="navbar-toggler text-right w-100 border-0 p-0" style="text-align: right;">
-                          <button class="navbar-toggler float-left" data-toggle="collapse" data-target="#collapsibleNavbar_1">
+                          <button class="navbar-toggler float-left" data-toggle="collapse" data-target="#collapsibleNavbar_3">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
                         
                          </div>
-                        <div class="collapse navbar-collapse" style="text-align: right;" id="collapsibleNavbar_1"  data-parent="#parent">
+                        <div class="collapse navbar-collapse" style="text-align: right;" id="collapsibleNavbar_3"  data-parent="#parent">
                          
                             <ul class="navbar-nav ">    
                                 <li class="nav-item dropdown"> <!-- menu ghép -->
@@ -205,7 +232,7 @@
                 <a href="#"><img src="imagesphukien/images/sanphamxemnhieu_5_03.jpg" class="Iphone" alt="" height="150px" width="150px"></a>
             </div>
             <div class="col-4 col-md-2">
-              <a href="#"><img src="imges/Iphone/Iphone11backim.png" class="Iphone" alt="" height="150px" width="150px"></a>
+              <a href="#"><img src="imagesphukien/images/Iphone11backim.png" class="Iphone" alt="" height="150px" width="150px"></a>
           </div>
         </div>
     </div>
